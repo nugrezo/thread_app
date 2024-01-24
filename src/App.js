@@ -14,7 +14,7 @@ function App() {
 
         <BrowserRouter>
           <Routes>
-            <Route path="/thread_app/login" element={<Login />} />
+            <Route path="/" element={<Login />} />
           </Routes>
         </BrowserRouter>
       </div>
