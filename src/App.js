@@ -1,5 +1,6 @@
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Login from "./Login";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       rendering the associated component when the path is matched.*/}
 
         <BrowserRouter>
-          <div>Hello This is react app</div>
+          <Routes>
+            <Route path="/login" element={<Login />} />
+          </Routes>
         </BrowserRouter>
       </div>
     </div>
