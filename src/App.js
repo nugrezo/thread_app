@@ -14,7 +14,8 @@ function App() {
 
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Login />} />
+            <Route path="/thread_app" element={<Login />} />
+            <div>Hi there</div>
           </Routes>
         </BrowserRouter>
       </div>
