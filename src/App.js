@@ -13,8 +13,8 @@ function App() {
       rendering the associated component when the path is matched.*/}
 
         <BrowserRouter>
+          <div>Hi there</div>
           <Routes>
-            <Route path="/thread_app" element={<Login />} />
             <div>Hi there</div>
           </Routes>
         </BrowserRouter>
